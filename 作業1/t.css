@@ -2,9 +2,9 @@
     background-color: green;
     width: 50px;
     height: 50px;
-    border-color: black;
-    text-align: center;
-    margin: auto;
+    position: absolute;
+    bottom: 200px;
+    right: 150px;
 }
 .c2{
     background-color: white;
@@ -13,6 +13,40 @@
     border-style: solid;
     width: 50px;
     height: 50px;
-    margin:auto;
+    position: absolute;
+    bottom: 200px;
+    right: 225px;
+}
+.c3{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
     text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.c4{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 100px;
+    right: 250px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.c5{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 300px;
+    right: 150px;
+    max-width:500px;
+    max-height:50px;
+
 }
