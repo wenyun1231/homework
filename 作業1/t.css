@@ -2,44 +2,53 @@
     background-color: green;
     width: 50px;
     height: 50px;
-    position: absolute;
+    /*position: absolute;
     bottom: 200px;
-    right: 150px;
+    right: 150px;*/
+    margin-left: 150px;
+    margin-top: 200px;
+    /*_margin表示與旁邊邊界的距離，建議盡量使用margin(刻網頁時)，
+    題目往右移要打「距離右邊距(left)」、往下移則要打「距離上邊距(top)」*/
 }
-.c2{
+#two{
+    
     background-color: white;
     border-color: blue;
     border-width: 5px;
     border-style: solid;
     width: 50px;
     height: 50px;
-    position: absolute;
-    bottom: 200px;
-    right: 225px;
+    margin-top: 20px;
+    /*bottom: 200px;
+    right: 225px;*/
 }
 .c3{
     background-color: black;
     width: 70px;
     height: 70px;
-    position: absolute;
+    /*position: absolute;
     bottom: 100px;
-    right: 150px;
+    right: 150px;*/
     text-align: center;
     color: white;
     font-size: 24px;
+    /*margin-left: 150px;
+    margin-top: 20px;*/
 }
 .c4{
     background-color: black;
     width: 70px;
     height: 70px;
-    position: absolute;
+    /*position: absolute;
     bottom: 100px;
-    right: 250px;
+    right: 250px;*/
     text-align: center;
     color: white;
     font-size: 24px;
+    /*margin-left: 150px;
+    margin-top: 20px;*/
 }
-.c5{
+/*.c5{
     background-color: red;
     width: 50px;
     height: 50px;
@@ -49,4 +58,4 @@
     max-width:500px;
     max-height:50px;
 
-}
+}*/
